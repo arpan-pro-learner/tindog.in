@@ -172,7 +172,7 @@ body {
 @media screen and (max-width: 576px) {
   .middle-align > h1 {
     font-size: 2.5rem;
-    display: inline;
+    display: inline-block;
   }
   h2 {
     font-size: 2rem;
