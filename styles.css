@@ -132,14 +132,83 @@ body {
 }
 .footer-logo {
   margin: 20px 10px;
+  color: #8f8f8f;
 }
+.footer-logo:hover {
+  color: #ef8172;
+}
+
 /* MEDIA QUERIES */
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
+@media screen and (max-width: 1000px) {
   .title-img {
     position: static;
     transform: rotate(0);
+    text-align: center;
+    width: 50%;
+  }
+
+  .middle-align {
+    text-align: center;
+  }
+
+  .middle-align > h1 {
+    font-size: 3rem;
+  }
+
+  .testimonial-text {
+    font-size: 1.8em;
+  }
+
+  #footer {
+    font-size: 1rem;
+    padding-bottom: 1.5em;
+  }
+
+  #cta > h3 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .middle-align > h1 {
+    font-size: 2.5rem;
+    display: inline;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    text-align: center;
+  }
+  #pricing p {
+    text-align: center;
+  }
+  .testimonial-text {
+    font-size: 1rem;
+  }
+
+  .download-btn {
+    display: inline;
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 2rem;
+  }
+
+  .download-btn {
+    margin: 1% 0;
+    display: inline;
+  }
+
+  .container-fluid {
+    padding: 2% 7% 7%;
+  }
+
+  .title-img {
+    margin-top: 1.5em;
+    margin-left: 5rem;
+  }
+
+  .press-logo {
+    width: 40%;
   }
 }
